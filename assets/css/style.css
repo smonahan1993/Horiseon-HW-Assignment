@@ -1,0 +1,146 @@
+/* styles all parts of file to border-box box-sizing */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*body of site */
+body {
+    background-color: #d9dcd6;
+}
+
+/* main site header */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* header h1 styled to inline-block display to show each item side by side */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* changes color of just seo part of font */
+header h1 .seo {
+    color: #d9dcd6;
+}
+/*styles first header div section */
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* takes away bullets from list */
+header div ul {
+    list-style-type: none;
+}
+/* displays list items side by side in header */
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* changes color of link text */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* 16px font-size for all p elements */
+p {
+    font-size: 16px;
+}
+
+/* styles section before search engine optimization to show big picture of digital marketing meeting */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* 1st and 3rd sections float to left of screen */
+.float-left
+{
+    float: left;
+    margin-right: 25px;
+}
+
+/* second section floats to the right */
+.float-right
+{ 
+
+    float: right;
+    margin-right: 25px;
+}
+
+/*content section */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* styles benefits div */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* styles each div within the benefits div */
+.benefits div {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* styles h3 elements in benefits div */
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* styles images within benefits div */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* styles each div within content div */
+.content div{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* styles each image within content div to max height of 200px */
+.content img  {
+    max-height: 200px;
+}
+/* styles h2 elements of content div */
+.content h2
+ {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/*styles footer h2 font size */
+.footer h2 {
+    font-size: 20px;
+}
