@@ -26,8 +26,8 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-/*styles first header div section */
-header div {
+/*styles navigation */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -35,11 +35,11 @@ header div {
     font-size: 20px;
 }
 /* takes away bullets from list */
-header div ul {
+nav ul {
     list-style-type: none;
 }
 /* displays list items side by side in header */
-header div ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
