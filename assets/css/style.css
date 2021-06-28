@@ -21,6 +21,8 @@ header {
 header h1 {
     display: inline-block;
     font-size: 48px;
+    color: var(--background-color);
+    
 }
 /* changes color of just seo part of font */
 header h1 .seo {
